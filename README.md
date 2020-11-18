@@ -88,3 +88,6 @@ You will be using the [Google Maps API](https://developers.google.com/maps/docum
 ```
 # paste the response data here
 ```
+
+## Already done?
+Play around with some other public APIs. [Here is a great list](https://github.com/public-apis/public-apis).
