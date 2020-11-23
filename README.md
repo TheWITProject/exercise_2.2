@@ -540,9 +540,36 @@ https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJA-2qKIt
 - Can you get the distance from the CUNY Graduate Center to the Metropolitan Museum of Art?
 ```
 # paste the request verb and URL here
+https://maps.googleapis.com/maps/api/distancematrix/json?origins=place_id:ChIJRRI8walZwokRCPoUQ0TSCoQ&destinations=place_id:ChIJb8Jg9pZYwokR-qHGtvSkLzs&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
 ```
 ```
 # paste the response data here
+{
+    "destination_addresses": [
+        "1000 5th Ave, New York, NY 10028, USA"
+    ],
+    "origin_addresses": [
+        "365 5th Ave, New York, NY 10016, USA"
+    ],
+    "rows": [
+        {
+            "elements": [
+                {
+                    "distance": {
+                        "text": "5.0 km",
+                        "value": 5021
+                    },
+                    "duration": {
+                        "text": "16 mins",
+                        "value": 966
+                    },
+                    "status": "OK"
+                }
+            ]
+        }
+    ],
+    "status": "OK"
+}
 ```
 <br>
 
