@@ -317,9 +317,18 @@ GET https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJRRI
 - What are five pizza places near your college?
 ```
 # paste the request verb and URL here
+GET https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJ1y7mQm_2wokRPqoqstcPkq0&place_id=ChIJBQyPp2X2wokR-aiSMzFop-c&place_id=ChIJLe70p2X2wokReDA-X8LGqZE&place_id=ChIJe4_bTnr2wokRWPwq8n5DKdk&place_id=ChIJiyAjh3v2wokRK5YBozpXT38&fields=name,formatted_address&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
 ```
 ```
 # paste the response data here
+{
+    "html_attributions": [],
+    "result": {
+        "formatted_address": "1522 Amsterdam Ave, New York, NY 10031, USA",
+        "name": "Pepo’s Pizza"
+    },
+    "status": "OK"
+}
 ```
 <br>
 
