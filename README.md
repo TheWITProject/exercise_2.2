@@ -529,6 +529,7 @@ https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJRRI8wal
 - Can you get directions from Oakland, CA to Brooklyn, NY?
 ```
 # paste the request verb and URL here
+https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJA-2qKIt9hYARZ5N1NdUVtHE&destination=place_id:ChIJCSF8lBZEwokRhngABHRcdoI&mode&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
 ```
 ```
 # paste the response data here
