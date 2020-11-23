@@ -10,7 +10,7 @@ You will be using the [Google Maps API](https://developers.google.com/maps/docum
 - Can you get data about the Metropolitan Museum of Art?
 ```
 # paste the request verb and URL here
-https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJb8Jg9pZYwokR-qHGtvSkLzs&fields=name,formatted_address,formatted_phone_number,website,type,photo&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
+GET https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJb8Jg9pZYwokR-qHGtvSkLzs&fields=name,formatted_address,formatted_phone_number,website,type,photo&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
 ```
 ```
 # paste the response data here
@@ -200,7 +200,7 @@ GET https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJb8Jg9pZ
 - Can you get just the address for the CUNY Graduate Center?
 ```
 # paste the request verb and URL here
-https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJRRI8walZwokRCPoUQ0TSCoQ&fields=name,formatted_address&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
+GET https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJRRI8walZwokRCPoUQ0TSCoQ&fields=name,formatted_address&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
 ```
 ```
 # paste the response data here
@@ -218,7 +218,7 @@ https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJRRI8walZwok
 - Can you get some photos of the CUNY Graduate Center?
 ```
 # paste the request verb and URL here
-https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJRRI8walZwokRCPoUQ0TSCoQ&destination=place_id:ChIJb8Jg9pZYwokR-qHGtvSkLzs&mode&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0  
+GET https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJRRI8walZwokRCPoUQ0TSCoQ&destination=place_id:ChIJb8Jg9pZYwokR-qHGtvSkLzs&mode&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0  
 ```
 ```
 # paste the response data here
@@ -327,7 +327,7 @@ https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJRRI8wal
 - Can you get directions from the CUNY Graduate Center to the Metropolitan Museum of Art?
 ```
 # paste the request verb and URL here
-https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJRRI8walZwokRCPoUQ0TSCoQ&destination=place_id:ChIJb8Jg9pZYwokR-qHGtvSkLzs&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
+GET https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJRRI8walZwokRCPoUQ0TSCoQ&destination=place_id:ChIJb8Jg9pZYwokR-qHGtvSkLzs&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
 ```
 ```
 # paste the response data here
@@ -529,7 +529,7 @@ https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJRRI8wal
 - Can you get directions from Oakland, CA to Brooklyn, NY?
 ```
 # paste the request verb and URL here
-https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJA-2qKIt9hYARZ5N1NdUVtHE&destination=place_id:ChIJCSF8lBZEwokRhngABHRcdoI&mode&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
+GET https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJA-2qKIt9hYARZ5N1NdUVtHE&destination=place_id:ChIJCSF8lBZEwokRhngABHRcdoI&mode&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
 ```
 ```
 # paste the response data here
@@ -540,7 +540,7 @@ https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJA-2qKIt
 - Can you get the distance from the CUNY Graduate Center to the Metropolitan Museum of Art?
 ```
 # paste the request verb and URL here
-https://maps.googleapis.com/maps/api/distancematrix/json?origins=place_id:ChIJRRI8walZwokRCPoUQ0TSCoQ&destinations=place_id:ChIJb8Jg9pZYwokR-qHGtvSkLzs&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
+GET https://maps.googleapis.com/maps/api/distancematrix/json?origins=place_id:ChIJRRI8walZwokRCPoUQ0TSCoQ&destinations=place_id:ChIJb8Jg9pZYwokR-qHGtvSkLzs&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
 ```
 ```
 # paste the response data here
@@ -576,9 +576,36 @@ https://maps.googleapis.com/maps/api/distancematrix/json?origins=place_id:ChIJRR
 - Can you get the travel time from Oakland, CA to Brooklyn, NY?
 ```
 # paste the request verb and URL here
+GET https://maps.googleapis.com/maps/api/distancematrix/json?origins=place_id:ChIJA-2qKIt9hYARZ5N1NdUVtHE&destinations=place_id:ChIJCSF8lBZEwokRhngABHRcdoI&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
 ```
 ```
 # paste the response data here
+{
+    "destination_addresses": [
+        "Brooklyn, NY, USA"
+    ],
+    "origin_addresses": [
+        "Oakland, CA, USA"
+    ],
+    "rows": [
+        {
+            "elements": [
+                {
+                    "distance": {
+                        "text": "4,693 km",
+                        "value": 4692908
+                    },
+                    "duration": {
+                        "text": "1 day 19 hours",
+                        "value": 155137
+                    },
+                    "status": "OK"
+                }
+            ]
+        }
+    ],
+    "status": "OK"
+}
 ```
 
 ## Already done?
