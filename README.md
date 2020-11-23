@@ -118,9 +118,81 @@ GET https://maps.googleapis.com/maps/api/geocode/json?address=1000+5th+Ave,
 - Can you get just the open hours for the Metropolitan Museum of Art?
 ```
 # paste the request verb and URL here
+GET https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJb8Jg9pZYwokR-qHGtvSkLzs&fields=name,opening_hours&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
 ```
 ```
 # paste the response data here
+{
+    "html_attributions": [],
+    "result": {
+        "name": "The Metropolitan Museum of Art",
+        "opening_hours": {
+            "open_now": false,
+            "periods": [
+                {
+                    "close": {
+                        "day": 0,
+                        "time": "1700"
+                    },
+                    "open": {
+                        "day": 0,
+                        "time": "1000"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 1,
+                        "time": "1700"
+                    },
+                    "open": {
+                        "day": 1,
+                        "time": "1000"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 4,
+                        "time": "1900"
+                    },
+                    "open": {
+                        "day": 4,
+                        "time": "1200"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 5,
+                        "time": "1900"
+                    },
+                    "open": {
+                        "day": 5,
+                        "time": "1200"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 6,
+                        "time": "1700"
+                    },
+                    "open": {
+                        "day": 6,
+                        "time": "1000"
+                    }
+                }
+            ],
+            "weekday_text": [
+                "Monday: 10:00 AM – 5:00 PM",
+                "Tuesday: Closed",
+                "Wednesday: Closed",
+                "Thursday: 12:00 – 7:00 PM",
+                "Friday: 12:00 – 7:00 PM",
+                "Saturday: 10:00 AM – 5:00 PM",
+                "Sunday: 10:00 AM – 5:00 PM"
+            ]
+        }
+    },
+    "status": "OK"
+}
 ```
 <br>
 
