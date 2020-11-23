@@ -10,9 +10,108 @@ You will be using the [Google Maps API](https://developers.google.com/maps/docum
 - Can you get data about the Metropolitan Museum of Art?
 ```
 # paste the request verb and URL here
+GET https://maps.googleapis.com/maps/api/geocode/json?address=1000+5th+Ave,
++New+York,+NY&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0
 ```
 ```
 # paste the response data here
+{
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "1000",
+                    "short_name": "1000",
+                    "types": [
+                        "street_number"
+                    ]
+                },
+                {
+                    "long_name": "5th Avenue",
+                    "short_name": "5th Ave",
+                    "types": [
+                        "route"
+                    ]
+                },
+                {
+                    "long_name": "Manhattan",
+                    "short_name": "Manhattan",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_1"
+                    ]
+                },
+                {
+                    "long_name": "New York",
+                    "short_name": "New York",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "New York County",
+                    "short_name": "New York County",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "New York",
+                    "short_name": "NY",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "United States",
+                    "short_name": "US",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "10028",
+                    "short_name": "10028",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "1000 5th Ave, New York, NY 10028, USA",
+            "geometry": {
+                "location": {
+                    "lat": 40.7791655,
+                    "lng": -73.9629278
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.78051448029149,
+                        "lng": -73.96157881970851
+                    },
+                    "southwest": {
+                        "lat": 40.77781651970849,
+                        "lng": -73.96427678029151
+                    }
+                }
+            },
+            "place_id": "ChIJaZws-ZZYwokRPFdpz5_nqjA",
+            "plus_code": {
+                "compound_code": "Q2HP+MR New York, NY, USA",
+                "global_code": "87G8Q2HP+MR"
+            },
+            "types": [
+                "street_address"
+            ]
+        }
+    ],
+    "status": "OK"
+}
 ```
 <br>
 
