@@ -218,7 +218,7 @@ https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJRRI8walZwok
 - Can you get some photos of the CUNY Graduate Center?
 ```
 # paste the request verb and URL here
-https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJRRI8walZwokRCPoUQ0TSCoQ&fields=name,photo&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
+https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJRRI8walZwokRCPoUQ0TSCoQ&destination=place_id:ChIJb8Jg9pZYwokR-qHGtvSkLzs&mode&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0  
 ```
 ```
 # paste the response data here
