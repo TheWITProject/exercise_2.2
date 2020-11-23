@@ -327,9 +327,202 @@ https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJRRI8walZwok
 - Can you get directions from the CUNY Graduate Center to the Metropolitan Museum of Art?
 ```
 # paste the request verb and URL here
+https://maps.googleapis.com/maps/api/directions/json?origin=place_id:ChIJRRI8walZwokRCPoUQ0TSCoQ&destination=place_id:ChIJb8Jg9pZYwokR-qHGtvSkLzs&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
 ```
 ```
 # paste the response data here
+{
+    "geocoded_waypoints": [
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJRRI8walZwokRCPoUQ0TSCoQ",
+            "types": [
+                "establishment",
+                "food",
+                "point_of_interest",
+                "university"
+            ]
+        },
+        {
+            "geocoder_status": "OK",
+            "place_id": "ChIJb8Jg9pZYwokR-qHGtvSkLzs",
+            "types": [
+                "art_gallery",
+                "establishment",
+                "museum",
+                "point_of_interest",
+                "tourist_attraction"
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 40.7795899,
+                    "lng": -73.9602326
+                },
+                "southwest": {
+                    "lat": 40.7452406,
+                    "lng": -73.98641069999999
+                }
+            },
+            "copyrights": "Map data ©2020 Google",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "3.1 mi",
+                        "value": 5022
+                    },
+                    "duration": {
+                        "text": "16 mins",
+                        "value": 966
+                    },
+                    "end_address": "1000 5th Ave, New York, NY 10028, USA",
+                    "end_location": {
+                        "lat": 40.7790691,
+                        "lng": -73.9622212
+                    },
+                    "start_address": "365 5th Ave, New York, NY 10016, USA",
+                    "start_location": {
+                        "lat": 40.7488025,
+                        "lng": -73.9843068
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "0.2 mi",
+                                "value": 367
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 70
+                            },
+                            "end_location": {
+                                "lat": 40.7459153,
+                                "lng": -73.98641069999999
+                            },
+                            "html_instructions": "Head <b>southwest</b> on <b>5th Ave</b> toward <b>E 34th St</b><div style=\"font-size:0.9em\">Pass by Reinlieb Laurence (on the right)</div>",
+                            "polyline": {
+                                "points": "_wuwF|`qbMDB^V\\VhCbBxBtA\\V|AdALFn@b@|@j@"
+                            },
+                            "start_location": {
+                                "lat": 40.7488025,
+                                "lng": -73.9843068
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 mi",
+                                "value": 156
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 50
+                            },
+                            "end_location": {
+                                "lat": 40.7452406,
+                                "lng": -73.9847924
+                            },
+                            "html_instructions": "Turn <b>left</b> onto <b>E 30th St</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "_euwF`nqbMJ[FYRm@~@sC^kA"
+                            },
+                            "start_location": {
+                                "lat": 40.7459153,
+                                "lng": -73.98641069999999
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "2.7 mi",
+                                "value": 4276
+                            },
+                            "duration": {
+                                "text": "13 mins",
+                                "value": 763
+                            },
+                            "end_location": {
+                                "lat": 40.7788867,
+                                "lng": -73.9602326
+                            },
+                            "html_instructions": "Turn <b>left</b> at the 1st cross street onto <b>Madison Ave</b><div style=\"font-size:0.9em\">Pass by Chase Bank (on the right in 2.4&nbsp;mi)</div>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "w`uwF|cqbMQKiBmA{B{AyBuAiCcB]UeBiAOIi@]a@Y_@Ui@]QM}@k@]Uk@]q@e@UQa@WcAq@_Ao@{@k@s@e@gAs@_@Ug@]]W]W[U]Wm@_@_@U_@U]UA?]W[SWMi@[}@m@_Ak@_Am@aAq@w@k@}@o@_@U]W_Ak@{@o@}@i@a@W_@UcAq@w@m@_@U_Ak@]ScAq@w@m@}ByAc@WGEg@Uk@a@_@U?A{AaAYQo@e@{@o@[Sa@YgAq@}B}AeAs@u@c@OMkBoA_C}AyByA}ByA}B{A}@m@}@m@}B{AGEiBkAIE}B{AIIs@c@}@m@}B{AIEmBoAQKiCcB}ByA_Am@_Ao@}@m@_Am@_C{AqBsAKI}AeAc@YKI_@SwAaAGEIGuBwA_C{AEI_BeASM"
+                            },
+                            "start_location": {
+                                "lat": 40.7452406,
+                                "lng": -73.9847924
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 mi",
+                                "value": 157
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 57
+                            },
+                            "end_location": {
+                                "lat": 40.7795899,
+                                "lng": -73.9618385
+                            },
+                            "html_instructions": "Turn <b>left</b> onto <b>E 83rd St</b>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "as{wFljlbMKP}@pCa@pA_@jA"
+                            },
+                            "start_location": {
+                                "lat": 40.7788867,
+                                "lng": -73.9602326
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "217 ft",
+                                "value": 66
+                            },
+                            "duration": {
+                                "text": "1 min",
+                                "value": 26
+                            },
+                            "end_location": {
+                                "lat": 40.7790691,
+                                "lng": -73.9622212
+                            },
+                            "html_instructions": "Turn <b>left</b> onto <b>5th Ave</b>/<wbr/><b>Museum Mile</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "mw{wFntlbMFD~AdA"
+                            },
+                            "start_location": {
+                                "lat": 40.7795899,
+                                "lng": -73.9618385
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "_wuwF|`qbMlEvCbGzDlBnARu@rAaE^kAQKeFiDcGyD}DgCwHaFsKgH_CcBkCcByAaAaAi@}ByAwF{D}@m@{B{AcEiCwAcA}A_A{B_BaDqBo@[kAw@eD{BwAcAiBkAiGcEcNaJqRgMyFwDsGeEyRmMmKeHeCeBsBsAKP}@pCaA|CfBjA"
+            },
+            "summary": "Madison Ave",
+            "warnings": [],
+            "waypoint_order": []
+        }
+    ],
+    "status": "OK"
+}
 ```
 <br>
 
