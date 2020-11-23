@@ -218,9 +218,99 @@ https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJRRI8walZwok
 - Can you get some photos of the CUNY Graduate Center?
 ```
 # paste the request verb and URL here
+https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJRRI8walZwokRCPoUQ0TSCoQ&fields=name,photo&key=AIzaSyDYT-3TgER3wxAOkrQYRpQORWATz9c5Li0 
 ```
 ```
 # paste the response data here
+{
+    "html_attributions": [],
+    "result": {
+        "name": "CUNY Graduate Center",
+        "photos": [
+            {
+                "height": 3258,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102171454142994281799\">Sebastian Förste</a>"
+                ],
+                "photo_reference": "ATtYBwKhtUWcSdLl3XHpOpiAWPOHpRQZWFqqWIYurm3NhFvn8Cu17NsKZk-2ygdeW0sZK-5109vzAqRrkklkCuQSLbTKMPVngq4qNFmvaObnCNS5KI_-_d8RkI0FC592Y1R_ZBRsc4L478MeHRKpeDdjXX--uXNK3xdMhGrHDbiNqjVXn4Q8",
+                "width": 4128
+            },
+            {
+                "height": 1280,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102698931484204577483\">wellington fernando</a>"
+                ],
+                "photo_reference": "ATtYBwLM0VpRJuJdZQVgcCtQwMQZRNb_Z-8nGaDyJckDy2EFz72ErSLMxfqRT9kYbBujrj7mdDLvQwcZrHfRrya58eXlcQ5vYo37dDGV49nQJc-230Yr7kPSXn6gHQRZ43RVzjVjlPpgTy7MFiO4VK5jRj83V0vTlI_Amp_zPOfwfgsmPjOJ",
+                "width": 960
+            },
+            {
+                "height": 3072,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106058925743212609964\">Kamar Ararat Kalpakciyan</a>"
+                ],
+                "photo_reference": "ATtYBwLINKtcucI03J3nJfipag_ArvcLvm-WYBZ26PXTgNpuetPLTtxgO46tE5fKqExed-u5iahqof2X_GPl_XdlmCg1bIYrbj-O0PYxbLT-MGmOGGGmLdCW5afYh5C8z4QoFRvhxFt3j5KqQMww_mN828nvIJ_b8ZH89Ur5gx4R-rNkKe_1",
+                "width": 4608
+            },
+            {
+                "height": 5312,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107696651476482795651\">Bunny Ebanks</a>"
+                ],
+                "photo_reference": "ATtYBwLD_z9Yq_jyHDMcooNngEPTTpZ7fgnYUMLlYbN17GcxWvzpSwITmdf1jWk3omGO9H_Jc59w73ph27vVZS32qgDopdm2z-EvgfEp9Qjg4zG2BRFyn778qLPlf3DJjFRba80fbU72eULv65Y4rwhsEsYDijBefrAfX0_QfZlryHkgCySA",
+                "width": 2988
+            },
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111966493996460489847\">Yasemin Gurcan</a>"
+                ],
+                "photo_reference": "ATtYBwIWJE6c5w-6LRcVKX3-lUfOhkwO0TbKED-j1E1R_pr3yrnHtsUVucuSwtDSsRqVxJm9gSbpjsQ6rkO_efiWpvQVc7PZT-jXXg3d04JZN5Ss5U0sIrU3KfAY8UmMyKN4zdI80wQ-f6qZs7K3CcOssmDV6yy4MLnwwaXsd7FBt7rZ64d_",
+                "width": 4032
+            },
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111966493996460489847\">Yasemin Gurcan</a>"
+                ],
+                "photo_reference": "ATtYBwKfPKx0uRLNHyrmpa54KhWKw5M9g40DdlTuoSHuLKGgGqgIpSp7VOwemp0EifElO6RqaoYCjFSPeJJ8X9DxtEiRgHO4ekpRuNaIOZpLAwhcBukZaPpiYhJWHR9Wo54QF2Ra7xJDoazKKpKJ2ZvnVUanfW9BwksPO5tl2afVCrQ5IqI6",
+                "width": 4032
+            },
+            {
+                "height": 714,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108230965180565314385\">Qahtan AL-Jammali</a>"
+                ],
+                "photo_reference": "ATtYBwK49gxBPaYzozMuom2vpofUTqmq_zxIDsXVXaC0cxiG-MP66pfrsrV-B802-KOhKzrf1zv6jgTcD-92W6joDPVNnJA2S2v_ZxyVI5xb5MKqIDbYZxLX0sNVEDAHNn0hQJsVpIAMjhV9iXMGA9ObQg4k6cw34fBn7KWhZ2_kAF-f7DVk",
+                "width": 1071
+            },
+            {
+                "height": 809,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116365843808688390145\">Arthurious</a>"
+                ],
+                "photo_reference": "ATtYBwI929W5HecstZAn8yfqYaTUgRU_SfFE20Kl9IOiVOZVpgJo1dWLYeMpNzl0moS6qB94LFJivo4u_dddxmklzuwMWBFhI8vZWQNfS3SF4gc9glf210e_fbXEOdrFbcB6E7YAn3C0svlRdy4at6vvsKtu7J8fJ-9J0kWGlntpzAzy5JMX",
+                "width": 1080
+            },
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108492738181551111937\">Cherishe Cumma</a>"
+                ],
+                "photo_reference": "ATtYBwINIVkwCjG9Y5rWTNblzAhcIvuozxD5rZO6v3SL_5zwAHSGsWoqJJnKrU2ilMQDX8pzI6_cgUBoYzlgzPpPKeq8vpsgaE7WN67yopd5kJC83Z5c-G6cOJKeX0IZ691aVB9lmq9mD0ouJjVW_M6WkyChW6sX-lbrJrjKuQh36vestFDn",
+                "width": 3024
+            },
+            {
+                "height": 2592,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110672763140227798702\">Glenn Ennekens</a>"
+                ],
+                "photo_reference": "ATtYBwItmVX7Vyet755UJAnWRvSOJN3I46KgC1Ly96pznu3wWkHBFn243Bg5853Bfnugnvy0IY9AX91Z3G4EY0dbcn6CR60TxR2UM9DxxHabzfCp9U-V7_2JU7Clp9sLGxj4Tw9MsSzklEP9TExGV7dW3zt4DLnUTQiK8LYMOvlPK3TR9y1a",
+                "width": 3872
+            }
+        ]
+    },
+    "status": "OK"
+}
 ```
 <br>
 
