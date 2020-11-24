@@ -10,7 +10,7 @@ You will be using the [Google Maps API](https://developers.google.com/maps/docum
 - Can you get data about the Metropolitan Museum of Art?
 ```
 # paste the request verb and URL here
-https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJb8Jg9pZYwokR-qHGtvSkLzs&fields=name,url,formatted_address,formatted_phone_number,website,type,photo&key=AIzaSyDQUCJ6lAXU2Ec7POR9hQAOYaxAIbD_rHY
+https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJb8Jg9pZYwokR-qHGtvSkLzs&fields=name,url,formatted_address,formatted_phone_number,website,type&key=AIzaSyDQUCJ6lAXU2Ec7POR9hQAOYaxAIbD_rHY
 ```
 ```
 # paste the response data here
@@ -20,88 +20,6 @@ https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJb8Jg9pZYwok
         "formatted_address": "1000 5th Ave, New York, NY 10028, USA",
         "formatted_phone_number": "(212) 535-7710",
         "name": "The Metropolitan Museum of Art",
-        "photos": [
-            {
-                "height": 3024,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/115967679611787063919\">Richard Stark</a>"
-                ],
-                "photo_reference": "ATtYBwKnVZUhJXaXQ2eqgT0Dv4MZkFwQiBnzJMmjIoDpk3oMyUrHMLtwpGYC7RLoduHEvefHxxRyh6tmjt36oGTXcEahSoO4WepZcMHg7FTO8xS9W7sg9MISngsfjYBOd-mgkNVZDI1V-syONrr-p6X2_OyfQ0CaT9LkUHfXaUDlo4XvTR4a",
-                "width": 4032
-            },
-            {
-                "height": 800,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/106748439247716180853\">Karl 1974</a>"
-                ],
-                "photo_reference": "ATtYBwJglI9HkQw53HGwxda5yzjo1N8rUKlzpQjtUQBjFx81OfaakooZEzIkhtyv4h52gbEYF6uHYSXfUwDqUUw8ikXTKGFXLZttiMfhQ2x9Zrc49Q7_gCuvg1hmpooXVOM_SuU1rDo4zIy3BI6PhwHjN9QG2wpQUqSEyz4Sy2URRdtjyGuu",
-                "width": 800
-            },
-            {
-                "height": 3024,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/105280404763450371863\">Sabrina Nazario</a>"
-                ],
-                "photo_reference": "ATtYBwKIwgzkztJWLNhb8E4RWUvGpXRjBgMGZOoyP4d2Vi818mlMSATMWC-RU3SYlrJX0PM_3OqQf-WeO6bWQr5Nn0IUUK2IrFlXtJeNBFlCkH402ZmlfLjsPoOUG39jbJHwhBluNW67a5Qm7qqnjs6uJz2sdKDirzTaQfeQUvBDBJAqkVZO",
-                "width": 4032
-            },
-            {
-                "height": 3024,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/114414941791922473064\">YehHsiang Chen</a>"
-                ],
-                "photo_reference": "ATtYBwK3t2il9z0_Fwk_8AORHcEIb-g8Ye1rZN8UTQC_B3EIbN3FnmKJlOR28DhgkkQTXG24OQ1k7Ed-uADytHDOTic4VbvihMQMX8cstSYkzWdJ6uYFSll2kBlIng2PDDDayGXSts8cfPi_eBuEQqFfJwPYAKQjEeb3nkDsk72lXLLuqaJQ",
-                "width": 4032
-            },
-            {
-                "height": 3024,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/114217576882578419305\">Eva Mikulcic</a>"
-                ],
-                "photo_reference": "ATtYBwJ2TT_N0saEfe5cWW-Abo1dFjnCRxgpiOCB-ug9dRymFA_wB0lwvDlI9STmsfZuMQHcCpDlFghUQg4iI3tLr5Il7giUu1XD_3nyckN5PjC8ti-NszjWM8ibjq50FsGOrPw06cc89qaYBM1zoNjTQQMZ932i3QAMdrvFEQxNxqJuRq38",
-                "width": 4032
-            },
-            {
-                "height": 5304,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/115568864800951782024\">Kenneth Hines, Jr.</a>"
-                ],
-                "photo_reference": "ATtYBwL_X2kjfFhLK8ZIqFs5Mg5TLIGBOsQyNG6G-incoewH0H-BjewOKwcWUUjivDwKfM2pLKR0qOSgbaqGbQEL2nznYOQqlie3hYZWTOZgMbdLED9Nwfzpbn_PXQ5nWsZWYow4TVNUYXxmGvzMGOsNO_EXreVS5Tar56qy5T4B1UlOoMIN",
-                "width": 7952
-            },
-            {
-                "height": 3456,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/108035579848062480030\">Jefferson Nyilas</a>"
-                ],
-                "photo_reference": "ATtYBwI3ujZAYXcrxFsjhAtdmmqCmHyGVzRnKtNcAOwdqcN_ldWEuBZk1a_kqjPpQwiIJlU1UkDLwLv4g6biiPxYo5RYAakniU17ZJr0XoxWEsz0c6Xiwz91r7LrUgsQdhCpH_hFGU34PivFMFMTlaVmT1NTegLE3Ot_eMSiezfk579quqdy",
-                "width": 4608
-            },
-            {
-                "height": 3024,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/107487783334312254168\">Giada Baldi</a>"
-                ],
-                "photo_reference": "ATtYBwL-ShgWerFpGDe1pr91JQBrnmxm3VgAxHj0mM7EY_DhQT7u_oHrbi2TMBd_hPSPqRFJUFrgmXIXXHNBKV5DaRK3R8JQ-fQ5-2edfcKYtE-I2gYrEbJAJOjmXjBgdWqqSj94b_Y42mSNdQU9G8668VKvy0UR2dGBbUDodjdY1qe4NvSM",
-                "width": 4032
-            },
-            {
-                "height": 2484,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/108919448933946114771\">Carlos Aviles</a>"
-                ],
-                "photo_reference": "ATtYBwJuFS8CM2vzUSo7mQHwsQzqcwP5Om2_P-CbEb12lskrkbuitBP9c-QiEnqMXKFCQYBWFv3ffFZxVKQbd5ANlahW6kdFLoFXUwyYJ9M1MKX-Hn6MGCxoaSS8dO9CDNEEC7o_HZ44cnhQi91PUioUGJovvbcfvv8n1inibFyWtfbbYdws",
-                "width": 2739
-            },
-            {
-                "height": 3024,
-                "html_attributions": [
-                    "<a href=\"https://maps.google.com/maps/contrib/109850608939875361213\">jamil blackmon</a>"
-                ],
-                "photo_reference": "ATtYBwJWUqQD5Z3VkR-Z5VNdoyzNFe573gJX-kTLZv2MANGP6uUvd5xyuwfKTA2ZZw_YgTk2tTIPi1ptVCZNr1iY8UQhoE4BpqKdMBjYdHUTKu3J5dZwCYQXu3ojAZWWjqkG7pE6la5zJJ2PLwI9rRyPm8SwEBZqX6k8Fvnld8tq02jt_WtZ",
-                "width": 4032
-            }
-        ],
         "types": [
             "art_gallery",
             "tourist_attraction",
@@ -114,34 +32,293 @@ https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJb8Jg9pZYwok
     },
     "status": "OK"
 }
+
 ```
 <br>
 
 - Can you get just the open hours for the Metropolitan Museum of Art?
 ```
 # paste the request verb and URL here
-https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=Museum%20of%20Modern%20Art&inputtype=textquery&fields=opening_hours&key=AIzaSyDQUCJ6lAXU2Ec7POR9hQAOYaxAIbD_rHY
+https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJb8Jg9pZYwokR-qHGtvSkLzs&fields=opening_hours&key=AIzaSyDQUCJ6lAXU2Ec7POR9hQAOYaxAIbD_rHY
 ```
 ```
 # paste the response data here
+{
+    "html_attributions": [],
+    "result": {
+        "opening_hours": {
+            "open_now": false,
+            "periods": [
+                {
+                    "close": {
+                        "day": 0,
+                        "time": "1700"
+                    },
+                    "open": {
+                        "day": 0,
+                        "time": "1000"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 1,
+                        "time": "1700"
+                    },
+                    "open": {
+                        "day": 1,
+                        "time": "1000"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 4,
+                        "time": "1900"
+                    },
+                    "open": {
+                        "day": 4,
+                        "time": "1200"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 5,
+                        "time": "1900"
+                    },
+                    "open": {
+                        "day": 5,
+                        "time": "1200"
+                    }
+                },
+                {
+                    "close": {
+                        "day": 6,
+                        "time": "1700"
+                    },
+                    "open": {
+                        "day": 6,
+                        "time": "1000"
+                    }
+                }
+            ],
+            "weekday_text": [
+                "Monday: 10:00 AM – 5:00 PM",
+                "Tuesday: Closed",
+                "Wednesday: Closed",
+                "Thursday: 12:00 – 7:00 PM",
+                "Friday: 12:00 – 7:00 PM",
+                "Saturday: 10:00 AM – 5:00 PM",
+                "Sunday: 10:00 AM – 5:00 PM"
+            ]
+        }
+    },
+    "status": "OK"
+}
 ```
 <br>
 
 - Can you get just the address for the CUNY Graduate Center?
 ```
 # paste the request verb and URL here
+https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJRRI8walZwokRCPoUQ0TSCoQ&fields=formatted_address&key=AIzaSyDQUCJ6lAXU2Ec7POR9hQAOYaxAIbD_rHY
 ```
 ```
 # paste the response data here
+{
+    "html_attributions": [],
+    "result": {
+        "formatted_address": "365 5th Ave, New York, NY 10016, USA"
+    },
+    "status": "OK"
+}
 ```
 <br>
 
 - Can you get some photos of the CUNY Graduate Center?
 ```
 # paste the request verb and URL here
+https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJRRI8walZwokRCPoUQ0TSCoQ&fields=photos&key=AIzaSyDQUCJ6lAXU2Ec7POR9hQAOYaxAIbD_rHY
+
 ```
 ```
 # paste the response data here
+{
+    "html_attributions": [],
+    "result": {
+        "photos": [
+            {
+                "height": 3258,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102171454142994281799\">Sebastian Förste</a>"
+                ],
+                "photo_reference": "ATtYBwKprLEgL2JdZhi73w6uke03zi822CF82385vZ4N9IFgXr6tKxGCCKgATZeNJ0BhaRx8XOd86DIvcZtbUtT5GdS3C3AI7ypF5HO8XubzTd1pxOGbDmOodOYg5pKbzGoXQmDopt2VbsDieECuKlCq8GyBX0DpMZsKwCqe7u_o_ByKqSHC",
+                "width": 4128
+            },
+            {
+                "height": 1280,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102698931484204577483\">wellington fernando</a>"
+                ],
+                "photo_reference": "ATtYBwInP9YlG90Dfa8hqxTxK_7tCPdI5pw2QIxLakhyfALVay3eioDUUxlZCF8jLR2CaOYfdTcq7cubUJnLKPK75RRYWOs97UfJ6m-MaaExuYZ7G7iAOsdmkcTq0ewEEWwgUwravnqlPDrcmLUw1T5iVTSCeGTnhd948t2-0HXeDFLgMJ3A",
+                "width": 960
+            },
+            {
+                "height": 3072,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106058925743212609964\">Kamar Ararat Kalpakciyan</a>"
+                ],
+                "photo_reference": "ATtYBwJNX8-SGhdUdkf-1hop7CdgrAAuTQTOt1fS37H9Kr9e9n4DJrsP09O-iBvORCjn0WVrDh298uNiWYohfmBISJzkCLW61_MG15WRPecDLppotXsd9lTppV1iOauqcJXT9g6z7St00i4Ve59AjxDB4wWz-BqO3OoUdYVuhe3zzOgcCvpj",
+                "width": 4608
+            },
+            {
+                "height": 5312,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107696651476482795651\">Bunny Ebanks</a>"
+                ],
+                "photo_reference": "ATtYBwLe9Mirrjh2hMiA2SwZVUvEU76TRh-7aa73eexBEQRbY4q4G_Wj8syEfYxysQrgwQVtxmZQVfEPVP0A1qTtkLpg62toLTN0pRhBGNdaO5-251zeu5dT4PvFDq1DVpcJw7j8jdLDkzu8lgjoJNbESiP4Y3aZOQSul9qhEKfR2g5Ct6k9",
+                "width": 2988
+            },
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111966493996460489847\">Yasemin Gurcan</a>"
+                ],
+                "photo_reference": "ATtYBwKrhLjPbBb60HXss-kALRDGJnK1AmmIEEWxxlYU1maiN7SpYkYm0K6Cneb23x9vsD5_hmXIXOPcoKwKURVXT42CktiKwSQKthWrAia4FcUcMW1n83rvD9xgovWPFHKvfMXA6C8LhKLw4FxSWdHByfYGTMn33ZtNmaCjM_-JtxK1uARS",
+                "width": 4032
+            },
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111966493996460489847\">Yasemin Gurcan</a>"
+                ],
+                "photo_reference": "ATtYBwKrLoQe99YJxGvjxOzCqlsFhLV1CmI09R6tocSkYcJsQS7MehXwRsTdhQP0NJolhG9WzsHGsusiBA8Bp9FWPQbQxePbLzs53bsmDQQ0D2zNyJFsjXf3QA0p8uWk8sE5nN56Z37omKxPvEeTZ8LA8QWdZ6FXL-d9xOTNWVUDl9QQnQRW",
+                "width": 4032
+            },
+            {
+                "height": 714,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108230965180565314385\">Qahtan AL-Jammali</a>"
+                ],
+                "photo_reference": "ATtYBwLDZtuHeHWi1_5q4EVUogTQzOdMxab4JW5b-vqMINbZP1seBzG8yEqaf1BNLAh5sFCp8Sg-JpvsVlnkfF4cJm0Bf68uuYgfbUvPSDoBgaZ0jf-K2Puo65TW3SQVlQ8JnWfWleYbnrt6_imtpR4_d3pWX7m_WuaBA7yYU4KtOn2jK1_6",
+                "width": 1071
+            },
+            {
+                "height": 809,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116365843808688390145\">Arthurious</a>"
+                ],
+                "photo_reference": "ATtYBwJN8zClyFsrLagiqLzvZWF0iwvE1VhuOvxYFPiESs1lRj1JUK5XRj5iBJPy_bBQSlnBMW0Y9B4Y6GowSkb9igu4qpflTeysJAQZxmXJgutIGDHuJgXcGpOHbBh4eqDiwgh558UJXQoOskj2Z8yoLEjR5SIwSuQYNYNvmKrsRdOE_Jvj",
+                "width": 1080
+            },
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108492738181551111937\">Cherishe Cumma</a>"
+                ],
+                "photo_reference": "ATtYBwIl5VgRk8SfI5uUG7lCRIb2HdsEE1PFIuFUxUNxdpOE17U17NgcApzuXj9buoPS_I-igUt8OGbZ3qQmpotrOGjQa5qdQwpw4q9fPe6EItj5W5LJL55cyMXJkaeNI87v9iPiW1QlrnhCV3m6zhYCqzUHiRn9vhXzrbEyfuJ2sQb7QtHr",
+                "width": 3024
+            },
+            {
+                "height": 2592,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110672763140227798702\">Glenn Ennekens</a>"
+                ],
+                "photo_reference": "ATtYBwLE13__Pd3HL3rBaLqBRXQKrsnuAUbKCbsNRz0LelPHOHdnXgfePKAlCv2KGS1rg7KxVGpSjMKjexOzlaXCsdI4W-9kLPrK0B6l_pz1BN8kWbhuFgmo40DQNk-PRR4mB66F3-DiOgChu0Tn8BnkEIh4NqkMETbsEIMgSnFDs4smKORb",
+                "width": 3872
+            }
+        ]
+    },
+    "status": "OK"
+}
+# paste the response data 
+{
+    "html_attributions": [],
+    "result": {
+        "photos": [
+            {
+                "height": 3258,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102171454142994281799\">Sebastian Förste</a>"
+                ],
+                "photo_reference": "ATtYBwKprLEgL2JdZhi73w6uke03zi822CF82385vZ4N9IFgXr6tKxGCCKgATZeNJ0BhaRx8XOd86DIvcZtbUtT5GdS3C3AI7ypF5HO8XubzTd1pxOGbDmOodOYg5pKbzGoXQmDopt2VbsDieECuKlCq8GyBX0DpMZsKwCqe7u_o_ByKqSHC",
+                "width": 4128
+            },
+            {
+                "height": 1280,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102698931484204577483\">wellington fernando</a>"
+                ],
+                "photo_reference": "ATtYBwInP9YlG90Dfa8hqxTxK_7tCPdI5pw2QIxLakhyfALVay3eioDUUxlZCF8jLR2CaOYfdTcq7cubUJnLKPK75RRYWOs97UfJ6m-MaaExuYZ7G7iAOsdmkcTq0ewEEWwgUwravnqlPDrcmLUw1T5iVTSCeGTnhd948t2-0HXeDFLgMJ3A",
+                "width": 960
+            },
+            {
+                "height": 3072,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106058925743212609964\">Kamar Ararat Kalpakciyan</a>"
+                ],
+                "photo_reference": "ATtYBwJNX8-SGhdUdkf-1hop7CdgrAAuTQTOt1fS37H9Kr9e9n4DJrsP09O-iBvORCjn0WVrDh298uNiWYohfmBISJzkCLW61_MG15WRPecDLppotXsd9lTppV1iOauqcJXT9g6z7St00i4Ve59AjxDB4wWz-BqO3OoUdYVuhe3zzOgcCvpj",
+                "width": 4608
+            },
+            {
+                "height": 5312,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107696651476482795651\">Bunny Ebanks</a>"
+                ],
+                "photo_reference": "ATtYBwLe9Mirrjh2hMiA2SwZVUvEU76TRh-7aa73eexBEQRbY4q4G_Wj8syEfYxysQrgwQVtxmZQVfEPVP0A1qTtkLpg62toLTN0pRhBGNdaO5-251zeu5dT4PvFDq1DVpcJw7j8jdLDkzu8lgjoJNbESiP4Y3aZOQSul9qhEKfR2g5Ct6k9",
+                "width": 2988
+            },
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111966493996460489847\">Yasemin Gurcan</a>"
+                ],
+                "photo_reference": "ATtYBwKrhLjPbBb60HXss-kALRDGJnK1AmmIEEWxxlYU1maiN7SpYkYm0K6Cneb23x9vsD5_hmXIXOPcoKwKURVXT42CktiKwSQKthWrAia4FcUcMW1n83rvD9xgovWPFHKvfMXA6C8LhKLw4FxSWdHByfYGTMn33ZtNmaCjM_-JtxK1uARS",
+                "width": 4032
+            },
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/111966493996460489847\">Yasemin Gurcan</a>"
+                ],
+                "photo_reference": "ATtYBwKrLoQe99YJxGvjxOzCqlsFhLV1CmI09R6tocSkYcJsQS7MehXwRsTdhQP0NJolhG9WzsHGsusiBA8Bp9FWPQbQxePbLzs53bsmDQQ0D2zNyJFsjXf3QA0p8uWk8sE5nN56Z37omKxPvEeTZ8LA8QWdZ6FXL-d9xOTNWVUDl9QQnQRW",
+                "width": 4032
+            },
+            {
+                "height": 714,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108230965180565314385\">Qahtan AL-Jammali</a>"
+                ],
+                "photo_reference": "ATtYBwLDZtuHeHWi1_5q4EVUogTQzOdMxab4JW5b-vqMINbZP1seBzG8yEqaf1BNLAh5sFCp8Sg-JpvsVlnkfF4cJm0Bf68uuYgfbUvPSDoBgaZ0jf-K2Puo65TW3SQVlQ8JnWfWleYbnrt6_imtpR4_d3pWX7m_WuaBA7yYU4KtOn2jK1_6",
+                "width": 1071
+            },
+            {
+                "height": 809,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116365843808688390145\">Arthurious</a>"
+                ],
+                "photo_reference": "ATtYBwJN8zClyFsrLagiqLzvZWF0iwvE1VhuOvxYFPiESs1lRj1JUK5XRj5iBJPy_bBQSlnBMW0Y9B4Y6GowSkb9igu4qpflTeysJAQZxmXJgutIGDHuJgXcGpOHbBh4eqDiwgh558UJXQoOskj2Z8yoLEjR5SIwSuQYNYNvmKrsRdOE_Jvj",
+                "width": 1080
+            },
+            {
+                "height": 4032,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/108492738181551111937\">Cherishe Cumma</a>"
+                ],
+                "photo_reference": "ATtYBwIl5VgRk8SfI5uUG7lCRIb2HdsEE1PFIuFUxUNxdpOE17U17NgcApzuXj9buoPS_I-igUt8OGbZ3qQmpotrOGjQa5qdQwpw4q9fPe6EItj5W5LJL55cyMXJkaeNI87v9iPiW1QlrnhCV3m6zhYCqzUHiRn9vhXzrbEyfuJ2sQb7QtHr",
+                "width": 3024
+            },
+            {
+                "height": 2592,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/110672763140227798702\">Glenn Ennekens</a>"
+                ],
+                "photo_reference": "ATtYBwLE13__Pd3HL3rBaLqBRXQKrsnuAUbKCbsNRz0LelPHOHdnXgfePKAlCv2KGS1rg7KxVGpSjMKjexOzlaXCsdI4W-9kLPrK0B6l_pz1BN8kWbhuFgmo40DQNk-PRR4mB66F3-DiOgChu0Tn8BnkEIh4NqkMETbsEIMgSnFDs4smKORb",
+                "width": 3872
+            }
+        ]
+    },
+    "status": "OK"
+}
+
 ```
 <br>
 
