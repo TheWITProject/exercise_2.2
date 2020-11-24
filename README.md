@@ -12,7 +12,18 @@ You will be using the [Google Maps API](https://developers.google.com/maps/docum
 # paste the request verb and URL here
 ```
 ```
-# paste the response data here
+{
+    "candidates": [
+        {
+            "formatted_address": "1000 5th Ave, New York, NY 10028, United States",
+            "name": "The Metropolitan Museum of Art",
+            "opening_hours": {
+                "open_now": false
+            }
+        }
+    ],
+    "status": "OK"
+}
 ```
 <br>
 
@@ -21,7 +32,16 @@ You will be using the [Google Maps API](https://developers.google.com/maps/docum
 # paste the request verb and URL here
 ```
 ```
-# paste the response data here
+{
+    "candidates": [
+        {
+            "opening_hours": {
+                "open_now": false
+            }
+        }
+    ],
+    "status": "OK"
+}
 ```
 <br>
 
