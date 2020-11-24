@@ -9,19 +9,39 @@ You will be using the [Google Maps API](https://developers.google.com/maps/docum
 
 - Can you get data about the Metropolitan Museum of Art?
 ```
-# paste the request verb and URL here
+https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=Metropolitan Museum of Art&inputtype=textquery&fields=opening_hours&key= AIzaSyAKUlglJSs2nN2EZyMDSoo6gEhnAZKUPsY
 ```
 ```
-# paste the response data here
+{
+    "candidates": [
+        {
+            "formatted_address": "1000 5th Ave, New York, NY 10028, United States",
+            "name": "The Metropolitan Museum of Art",
+            "opening_hours": {
+                "open_now": false
+            }
+        }
+    ],
+    "status": "OK"
+}
 ```
 <br>
 
 - Can you get just the open hours for the Metropolitan Museum of Art?
 ```
-# paste the request verb and URL here
+https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=Metroploitan Museum of Art&inputtype=textquery&fields=opening_hours&key= AIzaSyAKUlglJSs2nN2EZyMDSoo6gEhnAZKUPsY
 ```
 ```
-# paste the response data here
+{
+    "candidates": [
+        {
+            "opening_hours": {
+                "open_now": false
+            }
+        }
+    ],
+    "status": "OK"
+}
 ```
 <br>
 
