@@ -50,7 +50,15 @@ You will be using the [Google Maps API](https://developers.google.com/maps/docum
 # paste the request verb and URL here
 ```
 ```
-# paste the response data here
+{
+    "candidates": [
+        {
+            "formatted_address": "365 5th Ave, New York, NY 10016, United States",
+            "name": "CUNY Graduate Center"
+        }
+    ],
+    "status": "OK"
+}
 ```
 <br>
 
