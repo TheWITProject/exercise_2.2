@@ -10,8 +10,8 @@ You will be using the [Google Maps API](https://developers.google.com/maps/docum
 - Can you get data about the Metropolitan Museum of Art?
 ```
 # paste the request verb and URL here
-```
 GET https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJb8Jg9pZYwokR-qHGtvSkLzs&fields=place_id,name,adr_address,photo&key=AIzaSyBY_p65zSyoiIcnrd6e-LnPTfDUNGUUjxU
+```
 ```
 # paste the response data here
 {
