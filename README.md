@@ -397,10 +397,8 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=40.8200471
 **Directions API**
 - Can you get directions from the CUNY Graduate Center to the Metropolitan Museum of Art?
 ```
-# paste the request verb and URL here
 ```
 ```
-# paste the response data here
 ```
 <br>
 
@@ -416,10 +414,35 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=40.8200471
 **Distance Matrix API**
 - Can you get the distance from the CUNY Graduate Center to the Metropolitan Museum of Art?
 ```
-# paste the request verb and URL here
+https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=place_id:ChIJRRI8walZwokRCPoUQ0TSCoQ&destinations=place_id:ChIJb8Jg9pZYwokR-qHGtvSkLzs&key=AIzaSyCPT7YPRbTq5sEJo2zEu1pfmT3A1qWZhPQ
 ```
 ```
-# paste the response data here
+{
+    "destination_addresses": [
+        "1000 5th Ave, New York, NY 10028, USA"
+    ],
+    "origin_addresses": [
+        "365 5th Ave, New York, NY 10016, USA"
+    ],
+    "rows": [
+        {
+            "elements": [
+                {
+                    "distance": {
+                        "text": "3.1 mi",
+                        "value": 5021
+                    },
+                    "duration": {
+                        "text": "16 mins",
+                        "value": 969
+                    },
+                    "status": "OK"
+                }
+            ]
+        }
+    ],
+    "status": "OK"
+}
 ```
 <br>
 
