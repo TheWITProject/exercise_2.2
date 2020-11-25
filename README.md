@@ -191,9 +191,18 @@ GET https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJb8Jg9pZ
 - Can you get just the address for the CUNY Graduate Center?
 ```
 # paste the request verb and URL here
+GET https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJRRI8walZwokRCPoUQ0TSCoQ&fields=name,adr_address&key=AIzaSyBY_p65zSyoiIcnrd6e-LnPTfDUNGUUjxU
 ```
 ```
 # paste the response data here
+{
+    "html_attributions": [],
+    "result": {
+        "adr_address": "<span class=\"street-address\">365 5th Ave</span>, <span class=\"locality\">New York</span>, <span class=\"region\">NY</span> <span class=\"postal-code\">10016</span>, <span class=\"country-name\">USA</span>",
+        "name": "CUNY Graduate Center"
+    },
+    "status": "OK"
+}
 ```
 <br>
 
