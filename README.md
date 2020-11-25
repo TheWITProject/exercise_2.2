@@ -308,7 +308,7 @@ GET https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJRRI8wal
 - What are five pizza places near your college?
 ```
 # paste the request verb and URL here
-GET https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=40.7427996,-74.1770884&radius=1500&type=restaurant&keyword=name&key=AIzaSyBY_p65zSyoiIcnrd6e-LnPTfDUNGUUjxU
+GET https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=40.7427996,-74.1770884&radius=500&type=restaurant&keyword=pizza&key=AIzaSyBY_p65zSyoiIcnrd6e-LnPTfDUNGUUjxU
 ```
 ```
 # paste the response data here
@@ -316,211 +316,461 @@ GET https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=40.742
     "html_attributions": [],
     "results": [
         {
-            "business_status": "CLOSED_TEMPORARILY",
+            "business_status": "OPERATIONAL",
             "geometry": {
                 "location": {
-                    "lat": 40.7402077,
-                    "lng": -74.1673266
+                    "lat": 40.7384437,
+                    "lng": -74.17079079999999
                 },
                 "viewport": {
                     "northeast": {
-                        "lat": 40.74130097989272,
-                        "lng": -74.16625047010727
+                        "lat": 40.73980892989272,
+                        "lng": -74.16931777010727
                     },
                     "southwest": {
-                        "lat": 40.73860132010728,
-                        "lng": -74.16895012989272
+                        "lat": 40.73710927010728,
+                        "lng": -74.17201742989272
                     }
                 }
             },
             "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "name": "NICO Kitchen + Bar",
-            "permanently_closed": true,
+            "name": "Blaze Pizza",
+            "opening_hours": {
+                "open_now": true
+            },
             "photos": [
                 {
-                    "height": 2640,
+                    "height": 3024,
                     "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/116014581836866297644\">NICO Kitchen + Bar</a>"
+                        "<a href=\"https://maps.google.com/maps/contrib/116185626778960576036\">Kevin Lahey</a>"
                     ],
-                    "photo_reference": "ATtYBwLxlzwfoYXUQS5KGbaE3bhhSDdjEvZTfSW5gZydg3VkaR40KXtkjbbANMB2D4qZpVwzIuchNqTxKZPaJHtKA7xtsjJnnZUkq_jpKuvjD1wODTPgVLTF3EMyz_KmqZDz0Fv91y1hiA9zY5YFcadL3WC43bm-JzmLqBCcWX_LNxgBmGia",
-                    "width": 3960
+                    "photo_reference": "ATtYBwKYTkKc4UvSSCv4v_wF7oKVi2z1Gqc-QTdljQilyykEHiIqZThz46o04k4ATug65nbLt75B0GgVOXoDxJcAZ7lnVhgvzW_2o6cRlEdpSj0E2QEVHXBn7n-7M0obg8rG3XnfZrdqZYfw-0_bOUGvJmVx1PHAIucKti1VWTriuLp9Idy9",
+                    "width": 4032
                 }
             ],
-            "place_id": "ChIJDTNm9oBTwokRatnhvZXWRsU",
+            "place_id": "ChIJkcWX4IFTwokRGzxAyZe8blY",
             "plus_code": {
-                "compound_code": "PRRM+33 Newark, New Jersey",
-                "global_code": "87G7PRRM+33"
+                "compound_code": "PRQH+9M Newark, New Jersey",
+                "global_code": "87G7PRQH+9M"
+            },
+            "price_level": 1,
+            "rating": 4.5,
+            "reference": "ChIJkcWX4IFTwokRGzxAyZe8blY",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_takeaway",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1427,
+            "vicinity": "691 Broad St, Newark"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 40.7382675,
+                    "lng": -74.1720945
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.73964252989272,
+                        "lng": -74.17090037010728
+                    },
+                    "southwest": {
+                        "lat": 40.73694287010728,
+                        "lng": -74.17360002989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "name": "Queen Pizza",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/111922827879507684907\">Marzieh Heidari</a>"
+                    ],
+                    "photo_reference": "ATtYBwJhGocB2uX7rK6Z_fiOzg3fmBqC3wzO6qYzS5dtqbAU3UuTP9Q9BjiabAIoqJuvaOx5Uk7i5eNsQO9fQmrrS-wV1nkbGoH2URLATOyRK6wjFbaeARdnV0csTQ3uEBEFrs67YYnVebHxhuxaCQ3qKrsbqiqqN_TT2vWRHHfkIGI1altR",
+                    "width": 1960
+                }
+            ],
+            "place_id": "ChIJx-Rkan9TwokRNPBn0KmirW4",
+            "plus_code": {
+                "compound_code": "PRQH+85 Newark, New Jersey",
+                "global_code": "87G7PRQH+85"
+            },
+            "price_level": 1,
+            "rating": 4.3,
+            "reference": "ChIJx-Rkan9TwokRNPBn0KmirW4",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 140,
+            "vicinity": "122 Halsey St, Newark"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 40.7443562,
+                    "lng": -74.17806899999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.74562792989272,
+                        "lng": -74.17676152010728
+                    },
+                    "southwest": {
+                        "lat": 40.74292827010728,
+                        "lng": -74.17946117989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "name": "Giovanni Pizza Pasta & Grill",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1932,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102882800576231090707\">Mohamed Ibrahim</a>"
+                    ],
+                    "photo_reference": "ATtYBwJjxcipA_iewttd-eSpP1UsungSREeGaUykOeF24HV9nUBMq7pUlfNYsEC0KUNLsOOkXtbtw-5mCiIHEDPhYYJATXT2sGJzwlaakxogtOc9Kg7z80FBxx59PuVn-oMKbLNCtk3DzsmlErAMx4vTfL2NVqOu7Yp-m3v94EIbzQUAw-xo",
+                    "width": 1932
+                }
+            ],
+            "place_id": "ChIJ-X73FYJUwokRmvL2xtP8sCk",
+            "plus_code": {
+                "compound_code": "PRVC+PQ Newark, New Jersey",
+                "global_code": "87G7PRVC+PQ"
+            },
+            "price_level": 1,
+            "rating": 3.7,
+            "reference": "ChIJ-X73FYJUwokRmvL2xtP8sCk",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_takeaway",
+                "meal_delivery",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 386,
+            "vicinity": "191 Central Ave, Newark"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 40.7408096,
+                    "lng": -74.17231169999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.74209902989273,
+                        "lng": -74.17099722010728
+                    },
+                    "southwest": {
+                        "lat": 40.73939937010728,
+                        "lng": -74.17369687989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "name": "Robert's Pizzeria",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117539974832479103571\">Roberts Pizza</a>"
+                    ],
+                    "photo_reference": "ATtYBwLcM9PwsIeix5v1qYeoE8gL-YrjDPe7r3DU9KzTKGuKGbvrjW5-3P-1J_U-xtkxhspHnlqgJjKYZ5nZY0ZpfRxD4ztlJ9NFio3zBErhTCkXpiq89zGXWVZ1SG28A58gnBV_xmX8YT5q55fKUX9Smhnl0S6W-rjgcd7kDHlXjXCA_9ZD",
+                    "width": 1500
+                }
+            ],
+            "place_id": "ChIJMWP_lH9TwokRDiT12LmCAyk",
+            "plus_code": {
+                "compound_code": "PRRH+83 Newark, New Jersey",
+                "global_code": "87G7PRRH+83"
+            },
+            "price_level": 1,
+            "rating": 4.3,
+            "reference": "ChIJMWP_lH9TwokRDiT12LmCAyk",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 217,
+            "vicinity": "63 New St, Newark"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 40.7456497,
+                    "lng": -74.1788871
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.74705392989273,
+                        "lng": -74.17770772010728
+                    },
+                    "southwest": {
+                        "lat": 40.74435427010728,
+                        "lng": -74.18040737989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "name": "Resa Grill",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104763865552199619296\">Resa Grill</a>"
+                    ],
+                    "photo_reference": "ATtYBwKEQWaB28Yb3LhafbMnf4Gb9sugTIYtNZlfQ5_ALpxpGTeBwFfb1CN0PiYAZ-tBzAM0mJOmGKWKkZK78ByBekl5JfIkalyAfsqrldGITd5HZi1N_ls1RNiSrItDYHwLh4nUT1oETpTuDP7p68amHwXWMMpLlXfTcp_-r1h2OY1pYGRg",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJKaVXTYJUwokREwt4GH2aAnU",
+            "plus_code": {
+                "compound_code": "PRWC+7C Newark, New Jersey",
+                "global_code": "87G7PRWC+7C"
+            },
+            "rating": 4.9,
+            "reference": "ChIJKaVXTYJUwokREwt4GH2aAnU",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "meal_takeaway",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 117,
+            "vicinity": "12 Lock St #3602, Newark"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 40.7371481,
+                    "lng": -74.17271319999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.73854307989271,
+                        "lng": -74.17151047010728
+                    },
+                    "southwest": {
+                        "lat": 40.73584342010727,
+                        "lng": -74.17421012989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "name": "Mama's Pizza",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1500,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/104733001379228625356\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATtYBwJNkQk1qKkwI6DyX8o7k2WIwnRfxzj5txr8wPYPHONjjPe3rgQDDQk-Sk0WD6jFLq1jatFCznbBMxw-_BllrgyLrEMy4xeLs2ixrluNvomfb5c8EiosSdisnDDx6aXa_eIfcFLq0zuwg88cVYwLisKtKlvC98ZG1nkbv2BMF1PDIrmF",
+                    "width": 2000
+                }
+            ],
+            "place_id": "ChIJ--bhzHhTwokRQox_tkeWPTU",
+            "plus_code": {
+                "compound_code": "PRPG+VW Newark, New Jersey",
+                "global_code": "87G7PRPG+VW"
             },
             "price_level": 2,
             "rating": 3.9,
-            "reference": "ChIJDTNm9oBTwokRatnhvZXWRsU",
-            "scope": "GOOGLE",
-            "types": [
-                "bar",
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 256,
-            "vicinity": "1 Center St, Newark"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 40.741171,
-                    "lng": -74.168412
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 40.74262047989273,
-                        "lng": -74.16709317010728
-                    },
-                    "southwest": {
-                        "lat": 40.73992082010729,
-                        "lng": -74.16979282989273
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "name": "Chinatown Diner",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1034,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/110961279328040426310\">A Google User</a>"
-                    ],
-                    "photo_reference": "ATtYBwLGg2mxLP-blxMlpj3SpFQ2V1HB_dbX-RrAlVv13WGkmA7ZjGDf5s74pv6hDY7rde4UEgHNQwHC1RN6WelQ70-HsHymo3hxfTJbps3AwYIU0uECx79L2R7VVS6VXfwCsORggnzDNb4PQMqrWmTq_kWRF76oUvueMzTAU5qOZQz8HqTX",
-                    "width": 1242
-                }
-            ],
-            "place_id": "ChIJmz2OdoBTwokRh8rtEtDe504",
-            "plus_code": {
-                "compound_code": "PRRJ+FJ Newark, New Jersey",
-                "global_code": "87G7PRRJ+FJ"
-            },
-            "rating": 4.5,
-            "reference": "ChIJmz2OdoBTwokRh8rtEtDe504",
-            "scope": "GOOGLE",
-            "types": [
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 94,
-            "vicinity": "Inside The YMCA, 4504, 600 Broad St, Newark"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 40.7314977,
-                    "lng": -74.1623718
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 40.73280042989272,
-                        "lng": -74.16110627010727
-                    },
-                    "southwest": {
-                        "lat": 40.73010077010728,
-                        "lng": -74.16380592989272
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "name": "SAGRES BAR AND GRILL",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 1784,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/115216186624398651140\">Sagres Bar &amp; Grill</a>"
-                    ],
-                    "photo_reference": "ATtYBwLt39wj_X9HO57q13JkYF67MXDxMnptsqSpWtPEvp5ESLgbHEzvimcxhq3xhirLJq7Aw3uQ7BMj1dsqFUogBrpF-voeZlSqJ9-afgW1Dvy8pNeosYkvbRGh4p3NtzAydjg4WW7etAyMU5XEEpLtX0ksmWjlIuiFbS2hK8kj_o5vBFNh",
-                    "width": 3171
-                }
-            ],
-            "place_id": "ChIJgQ9q2IRTwokRjOZQl4AQx-s",
-            "plus_code": {
-                "compound_code": "PRJQ+H3 Newark, New Jersey",
-                "global_code": "87G7PRJQ+H3"
-            },
-            "price_level": 2,
-            "rating": 4.1,
-            "reference": "ChIJgQ9q2IRTwokRjOZQl4AQx-s",
-            "scope": "GOOGLE",
-            "types": [
-                "night_club",
-                "bar",
-                "restaurant",
-                "food",
-                "point_of_interest",
-                "establishment"
-            ],
-            "user_ratings_total": 348,
-            "vicinity": "44 - 50 Prospect Street Corner of Ferry and, Prospect St, Newark"
-        },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 40.7315524,
-                    "lng": -74.1616777
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 40.73282822989272,
-                        "lng": -74.16038562010728
-                    },
-                    "southwest": {
-                        "lat": 40.73012857010728,
-                        "lng": -74.16308527989273
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-            "name": "Iberia",
-            "opening_hours": {
-                "open_now": true
-            },
-            "photos": [
-                {
-                    "height": 2988,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/100782284768869688972\">A Google User</a>"
-                    ],
-                    "photo_reference": "ATtYBwLzzvk6aAQKZ3hiazAajHUj-OG6yOeVQPdfhVIl9nr3NRE4u8zFDx5FLR_XKZXatF798Qb5N8n1kqnrKhqmTU5hDJirK-6SNbxCYhgDrHZbr-ytCJ6kHUBjqOK-hLJgnCKA5-IXQZqyrrhKx3RJXWXr-x1uT5tHPxb-WYHMUu_puig",
-                    "width": 5312
-                }
-            ],
-            "place_id": "ChIJMf5cL4VTwokRR7eVY2V37ew",
-            "plus_code": {
-                "compound_code": "PRJQ+J8 Newark, New Jersey",
-                "global_code": "87G7PRJQ+J8"
-            },
-            "price_level": 2,
-            "rating": 4.2,
-            "reference": "ChIJMf5cL4VTwokRR7eVY2V37ew",
+            "reference": "ChIJ--bhzHhTwokRQox_tkeWPTU",
             "scope": "GOOGLE",
             "types": [
                 "meal_delivery",
                 "meal_takeaway",
-                "bar",
                 "restaurant",
                 "food",
                 "point_of_interest",
                 "establishment"
             ],
-            "user_ratings_total": 2437,
-            "vicinity": "80-84 Ferry St, Newark"
+            "user_ratings_total": 52,
+            "vicinity": "150 Halsey St, Newark"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 40.73631719999999,
+                    "lng": -74.1692091
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.73771302989272,
+                        "lng": -74.16782897010727
+                    },
+                    "southwest": {
+                        "lat": 40.73501337010727,
+                        "lng": -74.17052862989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "name": "Queen Pizza II",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/117839698269898801808\">Daniel Rosado</a>"
+                    ],
+                    "photo_reference": "ATtYBwJcVO1ILe_ksLmbcKCmKeJu1b6rTKGdUUt4fTEj-LYj37zBqzC6emn23TQ07Lrm921l7wUvWhEnr0WJTyAOZDcbNh6cyUg0G5lU79JqZIl0VX9PMNaVjQXFyN9BcAbXdjR_h4T2oGg2qX_fyDJqT_VoBBPNFsRAmKipMcRhueFdLtOb",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJh8vaPIJTwokRDfh4x6CjZVw",
+            "plus_code": {
+                "compound_code": "PRPJ+G8 Newark, New Jersey",
+                "global_code": "87G7PRPJ+G8"
+            },
+            "price_level": 1,
+            "rating": 4.6,
+            "reference": "ChIJh8vaPIJTwokRDfh4x6CjZVw",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_delivery",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 178,
+            "vicinity": "48 Commerce St, Newark"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 40.7400078,
+                    "lng": -74.1699916
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.74131357989273,
+                        "lng": -74.16850462010729
+                    },
+                    "southwest": {
+                        "lat": 40.73861392010728,
+                        "lng": -74.17120427989272
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "name": "Newark Pizza",
+            "opening_hours": {
+                "open_now": true
+            },
+            "place_id": "ChIJ0QS7NoBTwokR33Vz_Z_C8RE",
+            "plus_code": {
+                "compound_code": "PRRJ+22 Newark, New Jersey",
+                "global_code": "87G7PRRJ+22"
+            },
+            "price_level": 3,
+            "rating": 0,
+            "reference": "ChIJ0QS7NoBTwokR33Vz_Z_C8RE",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "633 Broad St, Newark"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 40.7363776,
+                    "lng": -74.1707361
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.73769312989271,
+                        "lng": -74.16940622010728
+                    },
+                    "southwest": {
+                        "lat": 40.73499347010727,
+                        "lng": -74.17210587989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "name": "Two Brothers Pizza",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3456,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/113460236025716758993\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATtYBwIigYBjdbztHEPWzwIaYtfWzrzC7Edy0pa0Tknr8JhNgenETVYwNmV_FGDmANrI2uJfohSJoS-Kx-2lnbnIfBrQEEO5vbaiSUnbXn4aRC8UV44VpKf5hMJuTPZTPNN8nj0FoIzJkuE2pnC8OL_D1pi5OpkODd1JDTZt52D3NycvGvQb",
+                    "width": 5184
+                }
+            ],
+            "place_id": "ChIJtSEud31UwokRetoVgeHU0jQ",
+            "plus_code": {
+                "compound_code": "PRPH+HP Newark, New Jersey",
+                "global_code": "87G7PRPH+HP"
+            },
+            "price_level": 2,
+            "rating": 4.3,
+            "reference": "ChIJtSEud31UwokRetoVgeHU0jQ",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_takeaway",
+                "meal_delivery",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 98,
+            "vicinity": "16 Clinton St, Newark"
         }
     ],
     "status": "OK"
