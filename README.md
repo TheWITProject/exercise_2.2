@@ -9,10 +9,19 @@ You will be using the [Google Maps API](https://developers.google.com/maps/docum
 
 - Can you get data about the Metropolitan Museum of Art?
 ```
-# paste the request verb and URL here
+https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=Museum of Metropolitan Art&inputtype=textquery&fields=place_id,name,formatted_address&key=AIzaSyB_qbjwcLagyna7J6zK7Y3s0NErk90I360
 ```
 ```
-# paste the response data here
+{
+    "candidates": [
+        {
+            "formatted_address": "1000 5th Ave, New York, NY 10028, United States",
+            "name": "The Metropolitan Museum of Art",
+            "place_id": "ChIJb8Jg9pZYwokR-qHGtvSkLzs"
+        }
+    ],
+    "status": "OK"
+}
 ```
 <br>
 
