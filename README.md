@@ -217,10 +217,171 @@ GET https://maps.googleapis.com/maps/api/place/details/json?place_id=ChIJRRI8wal
 
 - What are five pizza places near your college?
 ```
-# paste the request verb and URL here
+GET https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=40.8200471,-73.9492724&radius=10&type=restaurant&keyword=pizza&key=AIzaSyB_qbjwcLagyna7J6zK7Y3s0NErk90I360
 ```
 ```
-# paste the response data here
+{
+    "html_attributions": [],
+    "results": [
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 40.8191441,
+                    "lng": -73.95228609999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.82046017989272,
+                        "lng": -73.95085582010728
+                    },
+                    "southwest": {
+                        "lat": 40.81776052010728,
+                        "lng": -73.95355547989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "name": "Pepo’s Pizza",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 822,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/105259786586434839237\">A Google User</a>"
+                    ],
+                    "photo_reference": "ATtYBwIAi2ocVjR0nZB9mYRWk0qRypl0rez9JaFB4rcfBQCbwFfs4LCO78xzUW1CJpi2m96OvsLiZ9E2mn1l67sGXelHH1-z_i_woB1tFlriitRPrREZhFYMbpi3C8Sw9wB7PMB46ih2X8KgRnhkb_IHybmNv_3zrrVrl9jdpW4BfR--DQPY",
+                    "width": 1024
+                }
+            ],
+            "place_id": "ChIJ1y7mQm_2wokRPqoqstcPkq0",
+            "plus_code": {
+                "compound_code": "R29X+M3 New York",
+                "global_code": "87G8R29X+M3"
+            },
+            "price_level": 1,
+            "rating": 4.4,
+            "reference": "ChIJ1y7mQm_2wokRPqoqstcPkq0",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_delivery",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 116,
+            "vicinity": "1522 Amsterdam Ave, New York"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 40.8214251,
+                    "lng": -73.95063569999999
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.82274292989272,
+                        "lng": -73.94919132010727
+                    },
+                    "southwest": {
+                        "lat": 40.82004327010728,
+                        "lng": -73.95189097989271
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "name": "Fumo Harlem",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1440,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/103345303588623381815\">Jaselyn D</a>"
+                    ],
+                    "photo_reference": "ATtYBwK39NydWeGxWSsWEi84BvyDdJ89XwiTxFYY2EXqjTdB4PRaR9XPJwyQnVKhYirAmnxNtwJty3VecQ8Nz40lILlD7WtIaHgXxcsq60pKQ01M9KduFCd7azw64drDburCXj3cAJpfOyDEn2bkLyRv8CX70h1PrYmEm7wrHuTrWrcXOMDY",
+                    "width": 1440
+                }
+            ],
+            "place_id": "ChIJLe70p2X2wokReDA-X8LGqZE",
+            "plus_code": {
+                "compound_code": "R2CX+HP New York",
+                "global_code": "87G8R2CX+HP"
+            },
+            "price_level": 2,
+            "rating": 4.5,
+            "reference": "ChIJLe70p2X2wokReDA-X8LGqZE",
+            "scope": "GOOGLE",
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 869,
+            "vicinity": "1600 Amsterdam Ave, New York"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 40.8213656,
+                    "lng": -73.9507102
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 40.82267317989272,
+                        "lng": -73.94925712010728
+                    },
+                    "southwest": {
+                        "lat": 40.81997352010728,
+                        "lng": -73.95195677989273
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+            "name": "Uncle Tony's Pizza",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 2554,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/102498524092436005137\">Ari Miller</a>"
+                    ],
+                    "photo_reference": "ATtYBwLZzFNOY9y0km1q_6Td5M-FaLiRmeg4HaXtQSDCoWngZzzpV57rLNBUphrx3HmUKmIGa-z2PCx9f9E8pc8uWak0LVVbIoj-zsmqu8p39O1tRFcrlXoYlahqrdUCq2bBH7f-_VT4tW4CPc-JG3r-JnFIQ5XTJ8PTz_jyf8Y41OmI1fup",
+                    "width": 3558
+                }
+            ],
+            "place_id": "ChIJBQyPp2X2wokR-aiSMzFop-c",
+            "plus_code": {
+                "compound_code": "R2CX+GP New York",
+                "global_code": "87G8R2CX+GP"
+            },
+            "price_level": 1,
+            "rating": 4.5,
+            "reference": "ChIJBQyPp2X2wokR-aiSMzFop-c",
+            "scope": "GOOGLE",
+            "types": [
+                "meal_delivery",
+                "meal_takeaway",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 194,
+            "vicinity": "1596 Amsterdam Ave, New York"
+        }
+    ],
+    "status": "OK"
+}
 ```
 <br>
 
